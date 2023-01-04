@@ -1,0 +1,73 @@
+html {
+    background-color: lightslategray;
+}
+
+body {
+    margin: 20px auto;
+    max-width: 800px;
+    max-height: 800px;
+    padding-bottom: 20px;
+}
+
+#ball-container {
+    width: 800px;
+    height: 800px;
+    border: solid black 10px;
+    margin: 20px auto;
+    z-index: 100;
+}
+
+.ball {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-radius: 100%;
+    transition-duration: 5s; ;
+}
+
+#ball-1 {
+    
+    border: solid red 100px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#ball-2 {
+    border: solid orange 100px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+#ball-3 {
+    border: solid yellow 100px;
+    margin-left: 560px;
+    margin-top: 40px;
+}
+#ball-4 {
+    border: solid green 100px;
+    margin-left: 40px;
+    margin-top: 300px;
+}
+#ball-5 {
+    border: solid  royalblue 100px;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+#ball-6 {
+    border: solid  blue 100px;
+    margin-left: 560px;
+    margin-top: 300px;
+}
+#ball-7 {
+    border: solid  blueviolet 100px;
+    margin-left: 40px;
+    margin-top: 560px;
+}
+#ball-8 {
+    border: solid violet 100px;
+    margin-left: 300px;
+    margin-top: 560px;
+}
+#ball-9 {
+    border: solid pink 100px;
+    margin-left: 560px;
+    margin-top: 560px;
+}
